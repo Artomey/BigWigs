@@ -24,7 +24,7 @@ L.heroic = "Mode héroïque"
 L.incoming = "Arrivée |2 %s"
 L.intermission = "Intervalle"
 L.interrupted = "%s interrompu"
-L.interrupted_by = "%s interrompu par %s" -- spell interrupted by player
+L.interrupted_by = "%s interrompu par %s"  sort interrompu par un joueur
 L.mob_killed = "%s tué (%d/%d)"
 L.mob_remaining = "%s tué, il en reste %d"
 L.mythic = "Mode mythique"
@@ -40,7 +40,7 @@ L.percent = "%d%% - %s" -- 20% - spell
 L.phase = "Phase %d"
 L.removed = "%s enlevé"
 L.removed_from = "%s enlevé de %s"
-L.removed_by = "%s enlevé par %s" -- spell removed by player
+L.removed_by = "%s enlevé par %s"  sort supprimé par un joueur
 L.small_adds = "Petits adds"
 L.soon = "%s bientôt"
 L.spawned = "%s apparu"
@@ -53,20 +53,20 @@ L.underyou = "%s en dessous de VOUS"
 L.you = "%s sur VOUS"
 L.you_icon = "%s sur |T13700%d:0|tVOUS"
 
-L.active = "Actif" -- When a boss becomes active, after speech finishes
+L.active = "Actif"  Quand un boss devient actif, à la fin du dialogue
 
 -- Common raid marking locale
 L.marker = "Marquage %s"
 L.marker_player_desc = "Marque les joueurs affectés par %s avec %s. Nécessite d'être assistant ou chef de raid."
 L.marker_npc_desc = "Marque %s avec %s. Nécessite d'être assistant ou chef de raid."
 
--- Ability where two players have to move close to each other
+ Sorts où deux joueurs doivent se rapprocher l'un de l'autre
 L.link = "Lié(e) avec %s"
 L.link_short = "Lié : %s"
 L.link_both = "%s est lié(e) avec %s"
 L.link_removed = "Lien enlevé"
 
--- Abbreviated numbers
+ Nombres abrégés
 L.amount_one = "%dB"
 L.amount_two = "%dM"
 L.amount_three = "%dK"
